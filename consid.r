@@ -5,7 +5,7 @@ library(scales)
 salary <- data.frame(
   # http://www.quora.com/Management-Consulting-and-Management-Consulting-Firms/How-much-does-a-management-consulting-firm-charge-for-one-case
   # http://www.amstat.org/sections/cnsl/newsletter/pdf_archive/vol23no1.pdf
-  billed.hourly.rate = rep(seq(200, 400, 100), each = 5 * 3),
+  billed.hourly.rate = rep(seq(200, 600, 200), each = 5 * 3),
 
   # http://ask.metafilter.com/74600/Help-me-understand-billable-hour-expectations-for-people-other-than-lawyers
   utilization = rep(rep(seq(0.1,0.9,0.2), 3), each = 3),
