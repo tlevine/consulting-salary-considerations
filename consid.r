@@ -7,11 +7,11 @@ salary <- data.frame(
   billed.weekly.rate = rep(seq(15000, 25000, 5000), each = 5 * 3),
 
   # http://ask.metafilter.com/74600/Help-me-understand-billable-hour-expectations-for-people-other-than-lawyers
-  utilization = rep(rep(seq(0.5,0.9,0.1), 3), each =  3),
+  utilization = rep(rep(seq(0.5,0.9,0.1), 3), each = 3),
 
   # http://blog.asmartbear.com/consulting-company-accounting.html
   # http://www.wahby.com/articles/overhead_defined.htm
-  overhead    = c(1.3, 1.6, 1.9)
+  overhead    = seq(1.1,1.7,0.3)
 )
 
 weeks.per.year <- 50
